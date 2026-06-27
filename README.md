@@ -1,77 +1,143 @@
-# React + TypeScript + Vite
+# 🚀 ProgrammingWithNick Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Full Stack Developer Portfolio** built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **Framer Motion**. This portfolio showcases my projects, technical skills, certifications, resume, and contact information through a clean UI with smooth animations and excellent performance.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🎨 Modern & Minimal UI
+* ⚡ Lightning Fast with Vite
+* 📱 Fully Responsive Design
+* 🎭 Smooth Framer Motion Animations
+* 🌙 Dark Theme
+* 💼 Project Showcase
+* 📜 Resume Download
+* 🏆 Certificates Section
+* 📧 Contact Form
+* 🔍 SEO Optimized
+* 🚀 Production Ready
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* **Frontend:** React 19, TypeScript
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion
+* **Routing:** React Router DOM
+* **Icons:** Lucide React
+* **Build Tool:** Vite
+* **Package Manager:** npm
 
-Note: This will impact Vite dev & build performances.
+## 📦 Installation
 
-## Expanding the ESLint configuration
+Clone the repository:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+git clone https://github.com/ProgrammingWithNick/programmingwithnick-portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Navigate to the project:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+cd programmingwithnick-portfolio
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## 📂 Project Structure
+
+```text
+portfolio/
+├── public/
+│   ├── assets/
+│   │   ├── certificates/
+│   │   │   └── AWS-Cloud-Practitioner.png
+│   │   ├── projects/
+│   │   │   └── ecommerce.png
+│   │   └── nikhil-resume.pdf
+│   ├── favicon.ico
+│   └── robots.txt
+├── src/
+│   ├── components/
+│   │   ├── AnimatedText.tsx
+│   │   ├── Card.tsx
+│   │   ├── CustomCursor.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Layout.tsx
+│   │   ├── LoadingScreen.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── PageTransition.tsx
+│   │   ├── ScrollProgress.tsx
+│   │   └── SEO.tsx
+│   ├── data/
+│   │   ├── certificatesData.ts
+│   │   ├── projectsData.ts
+│   │   ├── resumeData.ts
+│   │   └── skillsData.ts
+│   ├── hooks/
+│   │   └── useLocalStorage.ts
+│   ├── pages/
+│   │   ├── About.tsx
+│   │   ├── Certificates.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Home.tsx
+│   │   ├── NotFound.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Resume.tsx
+│   │   └── Skills.tsx
+│   ├── types/
+│   │   └── index.ts
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── vite-env.d.ts
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts
+```
+
+## 🎯 Performance Goals
+
+* ⚡ Fast Loading
+* 📱 Responsive on All Devices
+* ♿ Accessibility Friendly
+* 🔍 SEO Optimized
+* 🎨 Clean User Experience
+
+## 📬 Contact
+
+* **GitHub:** https://github.com/ProgrammingWithNick
+* **LinkedIn:** https://www.linkedin.com/in/nikhil-khavdu/
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+⭐ If you like this project, consider giving it a **Star** on GitHub!
+
