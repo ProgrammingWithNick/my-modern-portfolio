@@ -86,13 +86,13 @@ const Contact: React.FC = () => {
                 <div>
                   <h3 className="font-semibold text-white">Email</h3>
                   <p className="text-neutral-400">
-                    YOUR_EMAIL@example.com
+                    nikhilkhavdu441@gmail.com
                   </p>
                 </div>
               </div>
 
             </div>
-
+{/* 
             <div className="p-6 border rounded-3xl border-white/10 bg-white/5 backdrop-blur-xl">
 
               <div className="flex items-center gap-4">
@@ -108,7 +108,7 @@ const Contact: React.FC = () => {
                 </div>
               </div>
 
-            </div>
+            </div> */}
 
             <div className="p-6 border rounded-3xl border-white/10 bg-white/5 backdrop-blur-xl">
 
