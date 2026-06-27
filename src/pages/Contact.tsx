@@ -92,23 +92,6 @@ const Contact: React.FC = () => {
               </div>
 
             </div>
-{/* 
-            <div className="p-6 border rounded-3xl border-white/10 bg-white/5 backdrop-blur-xl">
-
-              <div className="flex items-center gap-4">
-                <div className="p-3 rounded-xl bg-cyan-500/20">
-                  <Phone className="text-cyan-400" />
-                </div>
-
-                <div>
-                  <h3 className="font-semibold text-white">Phone</h3>
-                  <p className="text-neutral-400">
-                    +91 XXXXXXXXXX
-                  </p>
-                </div>
-              </div>
-
-            </div> */}
 
             <div className="p-6 border rounded-3xl border-white/10 bg-white/5 backdrop-blur-xl">
 
