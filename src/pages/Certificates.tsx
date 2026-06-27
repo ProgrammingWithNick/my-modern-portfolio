@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, Download, X } from 'lucide-react';
+import { Download, X } from 'lucide-react';
 import { PageTransition } from '../components/PageTransition';
 import { certificatesData } from '../data/certificatesData';
 import type { Certificate } from '../types';
