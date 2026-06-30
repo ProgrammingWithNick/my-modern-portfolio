@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowUpRight, FileDown } from "lucide-react";
-import { Link } from "react-router-dom";
+import { FileDown } from "lucide-react";
 
 import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.png";
@@ -77,16 +76,6 @@ const Home: React.FC = () => {
           transition={{ delay: 0.5 }}
           className="flex flex-wrap items-center gap-4"
         >
-          {/* Contact */}
-          <Link
-            to="/contact"
-            className="flex items-center h-12 gap-2 px-6 font-semibold text-black transition-all duration-300 bg-white rounded-xl hover:scale-105 hover:bg-neutral-200"
-          >
-            <span>Connect</span>
-            <ArrowUpRight size={18} />
-          </Link>
-
-          
 
           {/* Resume */}
           <a
