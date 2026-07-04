@@ -1,6 +1,6 @@
 # 🚀 ProgrammingWithNick Portfolio
 
-A modern and responsive **Full Stack Developer Portfolio** built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **Framer Motion**. This portfolio showcases my projects, technical skills, certifications, resume, and contact information through a clean UI with smooth animations and excellent performance...
+A modern and responsive **Full Stack Developer Portfolio** built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **Framer Motion**. This portfolio showcases my projects, technical skills, certifications, resume, and contact information through a clean UI with smooth animations and excellent performance...,,,,
 
 ## ✨ Features
 
