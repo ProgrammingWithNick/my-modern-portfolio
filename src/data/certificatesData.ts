@@ -5,6 +5,7 @@ import ai from '../assets/certificates/ai.jpeg';
 import oracle from '../assets/certificates/oracle.png';
 import aws from '../assets/certificates/aws.png';
 import se from '../assets/certificates/se.png';
+import hp from '../assets/certificates/hp.png';
 
 export const certificatesData: Certificate[] = [
   {
@@ -38,6 +39,14 @@ export const certificatesData: Certificate[] = [
     date: 'July-2026',
     image: se, // Using the imported variable here
     downloadPath: se, // Using the imported variable here
-  }
+  },
+  {
+  id: 'cert-5',
+  title: 'Foundational Course on Applied Machine Learning and AI',
+  organization: 'Confederation of Indian Industry (CII) & HP Centre for AI',
+  date: 'September-2026',
+  image: hp, // Using the imported variable here
+  downloadPath: hp, // Using the imported variable here
+}
 
 ];
